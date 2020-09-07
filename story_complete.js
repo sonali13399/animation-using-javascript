@@ -11,11 +11,11 @@ let options = { "duration": 800 };
 
 let hitTheVillain = () => {
     let villainStart = {
-        transform: 'scale(0)',//'rotate(0deg)',
+        transform: 'rotate(0deg)',  //try 'scale(1)' instead of rotate(0deg)
         opacity: 100
     };
     let villainEnd = {
-        transform: 'scale(2)',//'rotate(1000deg)',
+        transform: 'rotate(1000deg)',  //try 'scale(0)' instead of rotate(1000deg)
         opacity: 0
     };
     let options = { "duration": 1500 };
